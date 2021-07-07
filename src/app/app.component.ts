@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myFirstApp';
+  title = 'Project_Angular';
+  isThisIngredientVital : boolean = true;
+  displayGuestList: boolean = false;
+  songList:string[]= ["Alejandro", "Ne me quitte pas","Le temps est bon"];
 }
