@@ -1,0 +1,9 @@
+<div class="user-profile">
+    <img [src] = "User.photo" [alt]= "User.name"/>
+    <h1>Nom : {{User.name}}</h1>
+    <h1>firstname : {{User.firstName}}</h1>
+    <p>{{User.quote}}</p>
+    <input [(ngModel)]="User.quote"/>
+    <h1 *ngIf="showMe">Age: {{User.age}}</h1>
+    <button (click)="handleClick()">Click</button>
+</div>
